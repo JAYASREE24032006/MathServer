@@ -1,5 +1,5 @@
 # Ex.05 Design a Website for Server Side Processing
-## Date:
+## Date: 23-04-2024
 
 ## AIM:
 To design a website to find surface area of a Right Cylinder in server side.
@@ -36,16 +36,19 @@ Publish the website in the given URL.
 <head>
 <title>Surface Area Of Right Cylinder</title>
 <style type="text/css">
-body {
+body
+{
     background-color:pink;
 }
-.edge {
+.edge
+{
     width: 1440px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 100px;
 }
-.box {
+.box
+{
     display:block;
     border: ridge black;
     width: 900px;
@@ -53,20 +56,23 @@ body {
     font-size: 20px;
     background-color:lightblue;
 }
-.my {
+.my
+{
     color:red;
     text-align: center;
     margin-top: 8px;
     margin-bottom: 9px;
 }
-.my1 {
+.my1
+{
     color:red;
     text-align: center;
     margin-top: 7px;
     margin-bottom: 6px;
     box-sizing: 20px;
 }
-h1 {
+h1
+{
     color:black;
     text-align: center;
     padding-top: 20px;
@@ -98,7 +104,8 @@ h1 {
         </div>
     </div>
     <script type="text/javascript">
-        function calculateArea() {
+        function calculateArea()
+        {
             var radius = parseFloat(document.getElementsByName("Radius")[0].value);
             var height = parseFloat(document.getElementsByName("Height")[0].value);
             var area = 2 * Math.PI * radius * (radius + height);
@@ -111,9 +118,13 @@ h1 {
 
 
 ## SERVER SIDE PROCESSING:
+![image](https://github.com/JAYASREE24032006/MathServer/assets/144360800/003c5a7a-84fa-4d69-8718-650bbac8fd9f)
+
 
 
 ## HOMEPAGE:
+![Screenshot 2024-04-29 204038](https://github.com/JAYASREE24032006/MathServer/assets/144360800/d2280c61-084e-4965-a4cd-fa1d3d0bd586)
+
 
 
 ## RESULT:
